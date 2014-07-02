@@ -13,6 +13,9 @@ assert.equal div(45, 5), 9
 
 ################################################################################
 
+# Nature (1876) Algorithm for Calculating the Date of Easter in the Gregorian
+# Calendar
+# Source: http://www.smart.net/~mmontes/nature1876.html
 getEaster = (year) ->
   a = year % 19
   b = div(year, 100)
